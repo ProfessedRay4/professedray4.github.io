@@ -1,1 +1,3 @@
-# professedray4.github.io t
+# professedray4.github.io
+
+This is my personal website made and hosted through github.
