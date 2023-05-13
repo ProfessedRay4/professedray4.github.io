@@ -160,7 +160,7 @@ a{
     width: fit-content;
     color: white;
     background: black;
-    padding: 0px 4px;
+    padding: 0 4px;
 }
 #meInTheWorld .months{
     /*font-size: x-large;*/
@@ -187,9 +187,9 @@ a{
 }
 
 #meInTheWorld .seconds{
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
-    background: #ffbfbf;
+    background: #EE4B2B;
     padding: 0 5px;
 }
 #meInTheWorld .small_strings{

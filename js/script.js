@@ -50,7 +50,7 @@ stopbtn.addEventListener("mouseover", function () {
   let thisthis = this;
 
   let olsunmu = getRndInteger(190,200);
-  if(olsunmu == 195 || olsunmu == 194){
+  if(olsunmu === 195 || olsunmu === 194){
     setTimeout(function (){
       thisthis.style.left = getRndInteger(-10, 99) + "%";
       thisthis.style.top = getRndInteger(-10, 99) + "%";
@@ -74,7 +74,7 @@ function getRandomColor(brightness) {
     var r = 255-brightness;
     var n = 0|((Math.random() * r) + brightness);
     var s = n.toString(16);
-    return (s.length==1) ? '0'+s : s;
+    return (s.length===1) ? '0'+s : s;
   }
   var randomColor1 = '#' + randomChannel(brightness) + randomChannel(brightness) + randomChannel(brightness),
       randomColor2 = '#' + randomChannel(brightness) + randomChannel(brightness) + randomChannel(brightness);
@@ -103,12 +103,12 @@ var calculateAge = ()=>{
   let age_hours = document.querySelector('#meInTheWorld .hours');
   let age_minutes = document.querySelector('#meInTheWorld .minutes');
   let age_seconds = document.querySelector('#meInTheWorld .seconds');
-  let birth_date = new Date('July, 22, 2008');
+  let birth_date = new Date('July 22, 2009');
   let years,months,days, hours, minutes, seconds;
   setInterval(function(){
     var current_date = new Date();
-    AGE = current_date.getYear() - birth_date.getYear();
-    age_year.innerHTML = pad(AGE)-1;
+    AGE = current_date.getFullYear() - birth_date.getFullYear();
+    age_year.innerHTML = pad(AGE);
     age_months.innerHTML = pad(Math.abs(current_date.getMonth() - birth_date.getMonth()));
     age_days.innerHTML = pad(Math.abs(current_date.getDate() - birth_date.getDate()));
     age_hours.innerHTML = pad(Math.abs(current_date.getHours() - birth_date.getHours()));
@@ -118,8 +118,14 @@ var calculateAge = ()=>{
 
 }
 
-calculateAge();
+function pad(number) {
+  if (number < 10) {
+    return '0' + number;
+  }
+  return number;
+}
 
+calculateAge();
 
 //init object to store window properties
 window.addEventListener("resize", function() {
