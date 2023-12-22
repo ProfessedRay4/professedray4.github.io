@@ -4,42 +4,41 @@
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="inc/bootstrap5/css/bootstrap.min.css"
-        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
-    <link rel="stylesheet" href="inc/fontawesome5/css/all.css">
+    <link crossorigin="anonymous" href="inc/bootstrap5/css/bootstrap.min.css"
+          integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" rel="stylesheet">
+    <link href="inc/fontawesome5/css/all.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/style.css">
+    <link href="css/style.css" rel="stylesheet">
     <title>ProfessedRay4 - IT Student</title>
 
-    <link rel="shortcut icon" type="image/png" href="https://cdn.discordapp.com/attachments/1091856798090277071/1107025980914139146/timer_logo.png">
- 
+    <link href="https://cdn.discordapp.com/attachments/1091856798090277071/1107025980914139146/timer_logo.png" rel="shortcut icon"
+          type="image/png">
+
 
 </head>
 
-<body>
-
+<body onload="myFunction()" style="margin:0;">
+<div id="loader"></div>
+<div class="animate-bottom" id="myDiv" style="display:none;">
     <section class="container-section">
         <section class="container-box">
             <header>
+                <h1 class="name" style="font-size: 32px;">ProfessedRay4</h1>
                 <span class="hello-myname">
-
-                    <span class="hi">Hi, </span>
-                    <span class="this-is" style="font-size: 25px">This is</span>
-                    <h1 class="name" style="font-size: 32px; display: inline;"> ProfessedRay4</h1>
-
-                </span>
+        <span class="hi">Hi, </span>
+        <span class="this-is" style="font-size: 25px;">This is</span>
+    </span>
             </header>
-            <article>
 
-                <span class="current-title" style="font-size: large">
-                    IT - Student<span id="typing-effect">|</span>
-                </span>
+            <article>
+                    <span class="current-title" style="font-size: large">
+                        High School - Student<span id="typing-effect">|</span>
+                    </span>
                 <br><br>
-                <ul id="socil-icons">
-                    </li>
+                <ul id="social-icons">
                     <li title="Github">
                         <a href="https://github.com/ProfessedRay4" target="_blank">
                             <i class="fab fa-github iconi"></i>
@@ -48,52 +47,37 @@
                     <li title="Youtube">
                         <a href="https://www.youtube.com/channel/UCSRsmuw5C19NPFNfdelxRxg" target="_blank">
                             <i class="fab fa-youtube iconi"></i>
-
                         </a>
+                    </li>
                 </ul>
             </article>
-
-            <button class="btn-stop" tabindex="1">Click me</button>
-            <div id="meInTheWorld" style="">
-                <div class="block-relative-fitcontet"><span class="years">--</span><span style="background: white;font-weight: 800;margin-left: 2px;bottom: 1px;position: absolute;">YEARS</span></div>
-                <div style="display: inline-flex">
-                    <div class="block-relative-fitcontet"><span class="months">--</span><span class="small_strings">MONTHS</span></div>
-                    <div class="block-relative-fitcontet"><span class="days">--</span><span class="small_strings">DAYS</span></div>
-                    <div class="block-relative-fitcontet"><span class="hours">--</span><span class="small_strings">HOURS</span></div>
-                    <div class="block-relative-fitcontet"><span class="minutes">--</span><span class="small_strings">MINUTES</span></div>
-                </div>
-                <div style="display: block;width: fit-content; position: relative"><span class="seconds">--</span><span style="background: white;font-weight: 800;margin-left: 2px;bottom: 1px;position: absolute;font-size: 9px;">SECONDS</span>
-
-                <span style="margin-left: 84px;color: gray"> ..on this planet</span>
-                </div>
-               </div>
         </section>
-
     </section>
-    <footer class="footer">
-        <div class="footer__inner">
-            <div class="footer__content">
-                © <span id="date_">  </span> |
-                <a href="https://github.com/ProfessedRay4" style="font-weight: bold;" target="_blank">
-                    ProfessedRay4
-                </a>
-            </div>
+</div>
+</body>
+
+
+<footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            © <span id="date_">  </span> |
+            <a href="https://github.com/ProfessedRay4" style="font-weight: bold;" target="_blank">
+                ProfessedRay4
+            </a>
         </div>
-        <div class="footer__inner">
-            <div class="footer__content">
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
                 <span>Powered by <a href="https://github.com/ProfessedRay4" style="font-weight: bold;" target="_blank">
                     github
                 </a></span>
-            </div>
         </div>
-    </footer>
+    </div>
+</footer>
 
 
-  
-    <script src="inc/bootstrap5/js/bootstrap.min.js"></script>
-    <script src="inc/fontawesome5/js/all.min.js"></script>
-    <script src="js/script.js"></script>
-
-</body>
+<script src="inc/bootstrap5/js/bootstrap.min.js"></script>
+<script src="inc/fontawesome5/js/all.min.js"></script>
+<script src="js/script.js"></script>
 
 </html>

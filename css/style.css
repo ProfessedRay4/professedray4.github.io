@@ -20,29 +20,9 @@ a{
 }
 .container-box::after {
     /* Set content to be an attribute on the element */
-    content: attr(data-value); 
-    position: relative;
-    left: 50%;
-    top: 15px;
-    color: gray;
+    attr(data-value);
 }
 
-.btn-stop{
-    font-weight: bolder;
-    transition: all .4s;
-    border: none;
-    background: rgb(88, 88, 88);
-    color: white;
-    padding: 6px;
-    /* border-radius: 4px; */
-    position: absolute;
-    top: 2%;
-    font-family: inherit;
-    font-size: inherit;
-    right: 9px;
-    cursor: pointer;
-    z-index: 1000;
-}
 .container-box{
     -webkit-box-shadow: 6px 6px 22px -1px rgba(128, 128, 128, 0.81);
     -moz-box-shadow: 6px 6px 22px -1px rgba(128, 128, 128, 0.81);
@@ -51,7 +31,7 @@ a{
     background: #ffffffc7;
     transition: all 1s;
     margin: 14% auto;
-    padding: 30px;  
+    padding: 30px;
     text-align: center;
     position: relative;
 }
@@ -81,14 +61,14 @@ a{
     display: inline;
     margin: 0px 5px;
 }
- 
+
 #socil-icons .iconi{
     font-size: 30px;
     color: black !important;
 }
 
 .italic-larger-txt{
-    font-size: larger; 
+    font-size: larger;
     font-style: italic;
 
 }
@@ -98,8 +78,8 @@ a{
     from {opacity: 1;}
     to {opacity: 0;}
   }
-   
-  #typing-effect {   
+
+  #typing-effect {
     animation: typingEffect .5s infinite alternate;
     color: black;
     font-weight: bolder;
@@ -107,11 +87,11 @@ a{
 
   .footer{
     z-index: 1000;
-    text-align: center; 
+    text-align: center;
     position: fixed;
     left: 0;
     bottom: 0;
-    width: 100%;   
+    width: 100%;
     text-align: center;
     margin-bottom: 9px;
   }
@@ -162,36 +142,7 @@ a{
     background: black;
     padding: 0 4px;
 }
-#meInTheWorld .months{
-    /*font-size: x-large;*/
-    /*font-weight: 600;*/
-    /*width: fit-content;*/
-    /*color: white;*/
-    /*background: black;*/
-    /*padding: 0px 4px;*/
-    /*display: block;*/
-    font-size: x-large;
-    font-weight: 600;
-}
-#meInTheWorld .days{
-    font-size: x-large;
-    font-weight: 600;
-}
-#meInTheWorld .hours{
-    font-size: x-large;
-    font-weight: 600;
-}
-#meInTheWorld .minutes{
-    font-size: x-large;
-    font-weight: 600;
-}
 
-#meInTheWorld .seconds{
-    font-size: 16px;
-    font-weight: 600;
-    background: #EE4B2B;
-    padding: 0 5px;
-}
 #meInTheWorld .small_strings{
     background: white;font-weight: 800;margin-left: 2px;bottom: 1px;font-size: 12px;
 }
@@ -202,4 +153,53 @@ a{
 
 .fab{
     color: black!important;
+}
+
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 120px;
+  height: 120px;
+  margin: -76px 0 0 -76px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 }
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom {
+  from{ bottom:-100px; opacity:0 }
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+  text-align: center;
 }
