@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ad05443e-8c8d-4aaa-b162-6c5ffe664bb7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,10 +19,16 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 4
 }]]></component>
   <component name="ProjectId" id="1uTkOMVJRYoPFnfz4r9DFSZmwOb" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -43,6 +47,23 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="QodanaHighlightedReportService">
+    <option name="localRunNotPublishedPersistedInfo">
+      <LocalReportPersistedInfo>
+        <option name="path" value="C:\Users\jerem\AppData\Local\Temp\qodana_output\qodana.sarif.json" />
+        <option name="reportGuid" value="3ab1870a-a6ce-42e6-8e3c-ac0f64fd7504" />
+        <option name="reportName" value="professedray4.github.io/qodana/2023-12-22" />
+      </LocalReportPersistedInfo>
+    </option>
+  </component>
+  <component name="QodanaIsSelectedPersistenceService">
+    <option name="selectedOrLoading" value="true" />
+  </component>
+  <component name="QodanaReportsService">
+    <option name="descriptions">
+      <ReportDescription localRun="true" path="C:\Users\jerem\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="3ab1870a-a6ce-42e6-8e3c-ac0f64fd7504" reportId="professedray4.github.io/qodana/2023-12-22" />
+    </option>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -55,17 +76,11 @@
       <workItem from="1625313727277" duration="1393000" />
       <workItem from="1684006032436" duration="2721000" />
       <workItem from="1684080423336" duration="3033000" />
-      <workItem from="1703281828518" duration="362000" />
+      <workItem from="1703281828518" duration="757000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1624787653432">
-      <screen x="0" y="40" width="1920" height="1040" />
-    </state>
-    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup/0.40.1920.1040/-1366.313.1366.768@0.40.1920.1040" timestamp="1624787653432" />
   </component>
 </project>
