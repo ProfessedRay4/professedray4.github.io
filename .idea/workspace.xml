@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad05443e-8c8d-4aaa-b162-6c5ffe664bb7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/My-Personel-Website.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/My-Personel-Website.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +25,9 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="1uTkOMVJRYoPFnfz4r9DFSZmwOb" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -33,32 +36,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Node.js.script.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="QodanaHighlightedReportService">
-    <option name="localRunNotPublishedPersistedInfo">
-      <LocalReportPersistedInfo>
-        <option name="path" value="C:\Users\jerem\AppData\Local\Temp\qodana_output\qodana.sarif.json" />
-        <option name="reportGuid" value="3ab1870a-a6ce-42e6-8e3c-ac0f64fd7504" />
-        <option name="reportName" value="professedray4.github.io/qodana/2023-12-22" />
-      </LocalReportPersistedInfo>
-    </option>
-  </component>
-  <component name="QodanaIsSelectedPersistenceService">
-    <option name="selectedOrLoading" value="true" />
-  </component>
+}</component>
   <component name="QodanaReportsService">
     <option name="descriptions">
       <ReportDescription localRun="true" path="C:\Users\jerem\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="3ab1870a-a6ce-42e6-8e3c-ac0f64fd7504" reportId="professedray4.github.io/qodana/2023-12-22" />
@@ -76,7 +68,12 @@
       <workItem from="1625313727277" duration="1393000" />
       <workItem from="1684006032436" duration="2721000" />
       <workItem from="1684080423336" duration="3033000" />
-      <workItem from="1703281828518" duration="850000" />
+      <workItem from="1703281828518" duration="1242000" />
+      <workItem from="1704083033349" duration="270000" />
+      <workItem from="1705337484948" duration="655000" />
+      <workItem from="1708484946165" duration="32000" />
+      <workItem from="1708484988101" duration="1133000" />
+      <workItem from="1708486216855" duration="1320000" />
     </task>
     <servers />
   </component>
