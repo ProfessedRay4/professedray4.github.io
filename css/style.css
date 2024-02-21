@@ -9,6 +9,20 @@ body{
     height: 100%;
 }
 
+/*loader */
+.se-pre-con {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://cdn.discordapp.com/attachments/1129231094722605166/1209721561318301807/loader.gif?ex=65e7f3ff&is=65d57eff&hm=2ce3371abaaf9c39344ebbe23c227fcf4a6d3f40dc75b369cf73bbc9a315ac78&') center no-repeat #fff;
+}
+
+
 a{
     color: inherit;
     text-decoration: none;
@@ -135,21 +149,6 @@ a{
 
 .fab{
     color: black!important;
-}
-
-#loader {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  z-index: 1;
-  width: 120px;
-  height: 120px;
-  margin: -76px 0 0 -76px;
-  border: 16px solid #f3f3f3;
-  border-radius: 50%;
-  border-top: 16px solid #3498db;
-  -webkit-animation: spin 2s linear infinite;
-  animation: spin 2s linear infinite;
 }
 
 @-webkit-keyframes spin {

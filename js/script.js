@@ -14,9 +14,19 @@ function timerPage() {
 }
 
 function showPage() {
-    document.getElementById("loader").style.display = "none";
-    document.getElementById("myDiv").style.display = "block";
+    document.getElementById("loader").style.display = "block";
+
+    // Set a delay before showing myDiv
+    setTimeout(function() {
+        // Hide the loader
+        document.getElementById("loader").style.display = "none";
+
+        // Show myDiv after the delay
+        document.getElementById("myDiv").style.display = "block";
+        $(".content").addClass("animate-bottom");
+    }, 2000); // Adjust the delay time in milliseconds (e.g., 2000 milliseconds = 2 seconds)
 }
+
 
 var randomWidth = () => {
     let x = 0;
@@ -73,7 +83,7 @@ function getRandomColor(brightness) {
 function cycleColors() {
     setInterval(function () {
         BODY.style.background = getRandomColor(98);
-    }, 1000); // Change color every 1000 milliseconds (1 second)
+    }, 1000); // Change color every 1000 milliseconds
 }
 
 // Start cycling colors when the page loads
@@ -97,21 +107,28 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
 //init object to store window properties
-window.addEventListener("resize", function () {
-    if (window.outerWidth !== windowSize.w || window.outerHeight !== windowSize.h) {
-        windowSize.w = window.outerWidth; // update object with current window properties
-        windowSize.h = window.outerHeight;
-        windowSize.iw = window.innerWidth;
-        windowSize.ih = window.innerHeight;
-        BODY.style.background = getRandomColor(98);
+    window.addEventListener("resize", function () {
+        if (window.outerWidth !== windowSize.w || window.outerHeight !== windowSize.h) {
+            windowSize.w = window.outerWidth; // update object with current window properties
+            windowSize.h = window.outerHeight;
+            windowSize.iw = window.innerWidth;
+            windowSize.ih = window.innerHeight;
+            BODY.style.background = getRandomColor(98);
 
-    }
-    //if the window doesn't resize but the content inside does by + or - 5%
-    else if (window.innerWidth + window.innerWidth * .05 < windowSize.iw ||
-        window.innerWidth - window.innerWidth * .05 > windowSize.iw) {
-        windowSize.iw = window.innerWidth;
-        BODY.style.background = getRandomColor(98);
+        }
+        //if the window doesn't resize but the content inside does by + or - 5%
+        else if (window.innerWidth + window.innerWidth * .05 < windowSize.iw ||
+            window.innerWidth - window.innerWidth * .05 > windowSize.iw) {
+            windowSize.iw = window.innerWidth;
+            BODY.style.background = getRandomColor(98);
 
-    }
-}, false)})
+        }
+    }, false)
+})
+
+// loader
+	$(window).load(function() {
+		// Animate loader offscreen
+        showPage()
+	});
 
