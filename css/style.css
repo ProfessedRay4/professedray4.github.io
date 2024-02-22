@@ -72,8 +72,9 @@ a{
     color: #585858;
 }
 #socil-icons li{
-    display: inline;
-    margin: 0px 5px;
+    display: flex;
+    justify-content: center;
+    margin: 0 10px;
 }
 
 #socil-icons .iconi{
@@ -109,11 +110,6 @@ a{
       margin-bottom: 9px;
   }
   @media  (max-width:1000px){
-      #meInTheWorld{
-          position: absolute;
-          bottom: -94px !important;
-          left: 4px;
-      }
       .hello-myname{
           font-size: xx-large;
           box-shadow: 3px 3px 6px -1px rgb(148 148 148 / 50%);
