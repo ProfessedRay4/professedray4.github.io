@@ -131,8 +131,3 @@ document.addEventListener('DOMContentLoaded', function () {
 		// Animate loader offscreen
         showPage()
 	});
-
-// audio player
- function audioError() {
-        alert("ERROR: the audio could not play :(");
-    }
