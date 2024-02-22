@@ -7,6 +7,7 @@ body{
     -ms-user-select: none;
     user-select: none;
     height: 100%;
+    overflow: hidden;
 }
 
 /*loader */
@@ -67,20 +68,22 @@ a{
     background: white;
     padding: 2px 23px;
 }
-#socil-icons{
-    padding: 0;
-    color: #585858;
-}
-#socil-icons li{
-    display: flex;
-    justify-content: center;
-    margin: 0 10px;
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-#socil-icons .iconi{
-    font-size: 30px;
-    color: black !important;
+#social-icons {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
 }
+
+#social-icons li {
+  margin: 0 5px; /* Adjust margin as needed */
+}
+
 
 .italic-larger-txt{
     font-size: larger;

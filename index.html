@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
@@ -9,14 +10,20 @@
     <link href="css/style.css" rel="stylesheet">
     <title>ProfessedRay4</title>
 
-    <link href="https://cdn.discordapp.com/attachments/1091856798090277071/1107025980914139146/timer_logo.png" rel="shortcut icon"
+    <link href="https://cdn.discordapp.com/attachments/1091856798090277071/1107025980914139146/timer_logo.png"
+          rel="shortcut icon"
           type="image/png">
 
 
 </head>
 
+<!-- audio autoplay -->
+<audio autoplay onerror="audioError()">
+    <source src="music/song1.mp3">
+</audio>
+
 <body>
-<div class="se-pre-con" id ="loader"></div>
+<div class="se-pre-con" id="loader"></div>
 <div class="animate-bottom" id="myDiv" style="display:none;">
     <section class="container-section">
         <section class="container-box">
@@ -28,10 +35,9 @@
     </span>
             </header>
 
-            <article>
-                    <span class="current-title" style="font-size: large">
-                        High School - Student<span id="typing-effect">|</span>
-                    </span>
+            <article class="content">
+                <span class="current-title" style="font-size: large">High School - Student<span
+                        id="typing-effect">|</span></span>
                 <br><br>
                 <ul id="social-icons">
                     <li title="Github">
@@ -44,8 +50,14 @@
                             <i class="fab fa-youtube iconi"></i>
                         </a>
                     </li>
+                    <li title="Discord">
+                        <a href="https://discord.com/users/1091415878156943472" target="_blank">
+                            <i class="fab fa-discord iconi"></i>
+                        </a>
+                    </li>
                 </ul>
             </article>
+
         </section>
     </section>
 </div>

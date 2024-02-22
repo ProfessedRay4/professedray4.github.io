@@ -82,7 +82,7 @@ function getRandomColor(brightness) {
 
 function cycleColors() {
     setInterval(function () {
-        BODY.style.background = getRandomColor(98);
+        BODY.style.background = getRandomColor(20);
     }, 1000); // Change color every 1000 milliseconds
 }
 
@@ -132,3 +132,7 @@ document.addEventListener('DOMContentLoaded', function () {
         showPage()
 	});
 
+// audio player
+ function audioError() {
+        alert("ERROR: the audio could not play :(");
+    }
