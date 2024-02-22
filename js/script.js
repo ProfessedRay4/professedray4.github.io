@@ -131,12 +131,3 @@ document.addEventListener('DOMContentLoaded', function () {
 		// Animate loader offscreen
         showPage()
 	});
-
-// music player
-document.addEventListener("DOMContentLoaded", function() {
-    const audioPlayer = new Audio("music/song1.mp3");
-
-    // Start playing automatically
-    audioPlayer.play();
-
-});
