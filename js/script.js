@@ -1,6 +1,6 @@
 const BODY = document.querySelector("body");
 let AGE = 0;
-let NABIZ = 2000;
+let NABIZ = 5000;
 var windowSize = {
     w: window.outerWidth,
     h: window.outerHeight,
@@ -8,10 +8,6 @@ var windowSize = {
     ih: window.innerHeight
 };
 var myVar;
-
-function timerPage() {
-    myVar = setTimeout(showPage, 2000);
-}
 
 function showPage() {
     document.getElementById("loader").style.display = "block";
@@ -25,41 +21,6 @@ function showPage() {
         document.getElementById("myDiv").style.display = "block";
         $(".content").addClass("animate-bottom");
     }, 2000); // Adjust the delay time in milliseconds (e.g., 2000 milliseconds = 2 seconds)
-}
-
-
-var randomWidth = () => {
-    let x = 0;
-    if (detectMob()) {
-        //    x = getRndInteger(65,85);
-        document.querySelector(".container-box").style.width = "80%";
-        document.querySelector(".container-box").setAttribute("data-value", " ");
-
-        x = getRndInteger(5, AGE);
-        document.querySelector(".container-box").style.paddingBottom = x / 2 + "%";
-        document.querySelector(".container-box").setAttribute("data-value", x + "%");
-        // clearInterval(interval);
-        NABIZ = 1000;
-    } else {
-        x = getRndInteger(30, 70);
-        document.querySelector(".container-box").style.width = x + "%";
-        document.querySelector(".container-box").setAttribute("data-value", x + "%");
-
-    }
-};
-
-var getRndInteger = (min, max) => {
-    return Math.floor(Math.random() * (max - min)) + min;
-};
-
-randomWidth();
-
-var interval = setInterval(() => {
-    randomWidth();
-}, NABIZ);
-
-function detectMob() {
-    return window.innerWidth <= 1000 && window.innerHeight <= 1000;
 }
 
 function getRandomColor(brightness) {
@@ -83,7 +44,7 @@ function getRandomColor(brightness) {
 function cycleColors() {
     setInterval(function () {
         BODY.style.background = getRandomColor(20);
-    }, 1000); // Change color every 1000 milliseconds
+    }, 5000); // Change color every 1000 milliseconds
 }
 
 // Start cycling colors when the page loads
