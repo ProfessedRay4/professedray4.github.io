@@ -33,7 +33,7 @@ function getRandomColor(brightness) {
 
     var randomColor1 = '#' + randomChannel(brightness) + randomChannel(brightness) + randomChannel(brightness),
         randomColor2 = '#' + randomChannel(brightness) + randomChannel(brightness) + randomChannel(brightness);
-    if (brightness === 50) {
+    if (brightness === 25) {
         return randomColor2;
         // return 'radial-gradient(at top left, '+randomColor1+', '+randomColor2+')'
     } else
