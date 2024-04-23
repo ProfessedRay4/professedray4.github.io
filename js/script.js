@@ -44,7 +44,7 @@ function getRandomColor(brightness) {
 function cycleColors() {
     setInterval(function () {
         BODY.style.background = getRandomColor(20);
-    }, 5000); // Change color every 1000 milliseconds
+    }, 2500);
 }
 
 // Start cycling colors when the page loads
